@@ -1,0 +1,20 @@
+h1 {
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(85, 235, 85, 0.445);
+}
+
+.recipe-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(230, 61, 61);
+    font-weight: 700;
+}
+
+img {
+    text-align: center;
+}
