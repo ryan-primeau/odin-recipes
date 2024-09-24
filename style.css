@@ -1,13 +1,32 @@
 h1 {
     font-family:'Times New Roman', Times, serif ;
     font-weight: bold;
-    text-align: center;
-    background-color: rgba(85, 235, 85, 0.445);
+    font-size: 48px;
+    margin: 16px auto;
+    padding: 8px;
+    background-color: lightblue;
+    border: 0px solid;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+#recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightblue;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .recipe-name {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    margin: 16px 8px; 
+    padding: 8px;
+    background-color: white;
+    border: 2px solid black;
 }
 
 h2 {
@@ -16,5 +35,6 @@ h2 {
 }
 
 img {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
